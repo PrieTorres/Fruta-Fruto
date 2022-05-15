@@ -1,0 +1,6 @@
+@import url(banner-imagem.css);
+@import url(banner-titulo.css);
+.banner{
+    width: 100%;
+    position: relative;/*para o banner titulo estar alinhado em relação ao banner e não a página*/
+}

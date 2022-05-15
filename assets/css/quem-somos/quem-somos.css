@@ -1,0 +1,6 @@
+@import url(quem-somos-descricao.css);
+@import url(quem-somos-titulo.css);
+.quem-somos{
+    text-align: center;
+    padding: 5rem;
+}

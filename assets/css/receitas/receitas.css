@@ -1,0 +1,31 @@
+@import url(receita-botao.css);
+@import url(receita-conteudo.css);
+@import url(receita-descrisao.css);
+@import url(receita-imagem.css);
+@import url(receita-titulo.css);
+@import url(receita.css);
+.receitas{
+    background-color: #e5e5e5;
+    display: flex; /*para que os elementos se alinhem um ao lado do outro*/
+    flex-wrap: wrap;/*para que as linhas se quebrem automaticamente*/
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 3rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receitas {
+        padding: 5rem 0 0 5rem;
+        padding-right: 5rem;
+    }
+}
